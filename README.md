@@ -1,7 +1,9 @@
-# Databento-lvl3-orderbook-feature-extration-with-interactive-correlation-matrix
+# Databento-lvl3-orderbook-feature-extration-with-symbol-filter-and-interactive-correlation-matrix
 # Order Book Feature Analysis
 
-Analyze correlations between extracted features from Databento Level 3 order book data.
+Analyze correlations between extracted features from Databento Level 3 order book data. 
+
+HTML interactive matrix was created for exploring big datasets and to improve color visibility.
 
 ## Features Extracted
 
@@ -36,7 +38,7 @@ For each symbol, action, and side combination:
 
 ## Example Output
 
-![Correlation Matrix](correlation_matrix_6EH5_static.png)
+![Correlation Matrix](6EH5_output/correlation_matrix_6EH5_static.png)
 
 ## Usage
 
