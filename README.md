@@ -1,2 +1,44 @@
 # Databento-lvl3-orderbook-feature-extration-with-interactive-correlation-matrix
-Databento lvl3 orderbook feature extration with interactive correlation matrix
+# Order Book Feature Analysis
+
+Analyze correlations between extracted features from Databento Level 3 order book data.
+
+## Features Extracted
+
+### Basic Price Statistics
+For each symbol, action, and side combination:
+- `mean_price_{symbol}_{action}_{side}`
+- `median_price_{symbol}_{action}_{side}`
+- `max_price_{symbol}_{action}_{side}`
+- `min_price_{symbol}_{action}_{side}`
+- `var_price_{symbol}_{action}_{side}`
+- `std_price_{symbol}_{action}_{side}`
+- `open_price_{symbol}_{action}_{side}`
+- `close_price_{symbol}_{action}_{side}`
+- `price_change_{symbol}_{action}_{side}`
+- `unique_price_levels_{symbol}_{action}_{side}`
+
+### Advanced Features
+- 22 Catch22 time series features
+- Data aggregation with 'right'/'left' labeling
+
+## Output
+- Static correlation heatmap (PNG)
+- Interactive correlation explorer (HTML)
+- Filtered feature dataset (CSV)
+
+## Future Improvements
+- Real-time processing
+- Additional microstructural features
+- Machine learning integration
+- Advanced visualizations
+- Performance optimization
+
+## Example Output
+
+![Correlation Matrix](correlation_matrix_6EH5_static.png)
+
+## Usage
+
+```bash
+python databento_feature_interactive_html_corr_matrix.py
