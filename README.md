@@ -32,7 +32,7 @@ For each symbol, action, and side combination:
 
 ## Future Improvements
 - Real-time processing
-- Adding new features
+- Adding new features (potentially - https://github.com/benfulcher/hctsa)
 - GPU speed up
 
 ## Example Output
