@@ -1,4 +1,4 @@
-# Databento-lvl3-orderbook-feature-extration-with-symbol-filter-and-interactive-correlation-matrix
+# Databento lvl3 orderbook feature extration with symbol filter and interactive correlation matrix
 # Order Book Feature Analysis
 
 Analyze correlations between extracted features from Databento Level 3 order book data. 
@@ -22,19 +22,18 @@ For each symbol, action, and side combination:
 
 ### Advanced Features
 - 22 Catch22 time series features
-- Data aggregation with 'right'/'left' labeling
+- Data aggregation with 'right'/'left' labeling for predefined timeframe
 
 ## Output
 - Static correlation heatmap (PNG)
 - Interactive correlation explorer (HTML)
 - Filtered feature dataset (CSV)
+- Correlation matrix (CSV)
 
 ## Future Improvements
 - Real-time processing
-- Additional microstructural features
-- Machine learning integration
-- Advanced visualizations
-- Performance optimization
+- Adding new features
+- GPU speed up
 
 ## Example Output
 
