@@ -39,6 +39,12 @@ For each symbol, action, and side combination:
 
 ![Correlation Matrix](6EH5_output/correlation_matrix_6EH5_static.png)
 
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Disclaimer
+This trading system is for educational and research purposes. Always test strategies thoroughly with historical data and paper trading before deploying with real capital. Past performance does not guarantee future results.
+
 ## Usage
 
 ```bash
